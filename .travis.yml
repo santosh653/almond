@@ -2,7 +2,7 @@ arch:
   - amd64
   - ppc64le
 language: node_js
-node_js:  4
+node_js:  5
 
 before_script:
   - node tests/server.js &
